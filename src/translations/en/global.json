@@ -1,0 +1,112 @@
+{
+  "header": {
+    "sections": {
+      "inicio": "Home",
+      "servicios": "Services",
+      "faq": "FAQ",
+      "contacto": "Contact"
+    }
+  },
+
+  "slogan": {
+    "primera-parte": "Creating",
+    "segunda-parte": "CONNECTIONS",
+    "tercera-parte": "Building",
+    "cuarta-parte": "COMMUNITIES"
+  },
+
+  "introduction": {
+    "h1": "Discover SocialVibe Agency",
+
+    "primer-parrafo": "If you're reading this, you probably already have a profile on Instagram, TikTok..., you upload content, and you know that you can make a lot of money with these platforms. Whether it's making a video dancing to your favorite song or showing what you've eaten today, any content has its audience, but not everyone knows how to reach that audience, and this audience rarely knows how to find you.",
+
+    "segundo-parrafo": "At SocialVibe Agency, we help you direct your content in the right direction. We are a digital marketing agency specializing in social media management.",
+
+    "tercer-parrafo": "The need to create SocialVibe Agency arises from seeing the large number of profiles that exist and need help. And also from doing something original, professional, and fun. Where we all win. Money. A lot."
+  },
+
+  "services": {
+    "titulo": "WHAT WE OFFER...",
+    "primer-servicio": {
+      "titulo": "Manage Your Social Media",
+      "descripcion": "Whether it's Instagram, TikTok, or YouTube, you just need to create and send the content to your personal manager, who will take care of uploading it to the platform in a way that produces the maximum reach and engagement possible among your community."
+    },
+    "segundo-servicio": {
+      "titulo": "Respond to Your Chats",
+      "descripcion": "We take care of responding to all your followers with a personal and close treatment, just as you would, but with our professionalism and experience in sales and community management."
+    },
+    "tercer-servicio": {
+      "titulo": "Monthly Meeting",
+      "descripcion": "Once a month, you will meet with your personal manager to evaluate the results obtained during the month (followers, income, publications, statistics...).",
+      "descripcion-2": "There is usually always something to discuss on both sides: questions arise, new ideas, what can be improved for the following months, how the agency is helping, etc. We not only talk about numbers, but we also like to receive feedback."
+    },
+    "cuarto-servicio": {
+      "titulo": "Edit Your Content",
+      "descripcion": "Editing content is not your thing, or you find it lazy? Don't worry, we also take care of editing the content you send us.",
+      "descripcion-2": "Both the photos or videos that we are going to upload, your manager will take care of the editing!"
+    },
+    "quinto-servicio": {
+      "titulo": "Direct Contact with Your Manager",
+      "descripcion": "If you have anything to discuss with your manager, you can do it. You just have to write to him on WhatsApp, and he will respond as soon as possible.",
+      "descripcion-2": "Forget about sending emails to technical support in another country waiting for generic responses for hours. Did we tell you that we appreciate closeness?"
+    }
+  },
+
+  "valores": {
+    "titulo": "Our Values",
+    "introduction": "It's important that you know the values of the person you are going to work with and in whom you are going to place your trust.",
+    "confianza": "Trust",
+    "compromiso": "Commitment",
+    "flexibilidad": "Flexibility",
+    "privacidad": "Privacy",
+    "transparencia": "Transparency"
+  },
+
+  "ocupamos": {
+    "titulo": "Seriously, you can't handle everything on your own",
+
+    "primer-parrafo": "I know what you're thinking. The intention and the desire are there, but if you want to explode and reach the maximum audience, if you want to create a large community, have high income, if you really want to live on creating content, it's essential to delegate work.",
+
+    "segundo-parrafo": "First, you'll have to know how to start. Anyone can create a profile and start uploading content, but knowing how to use your content and social media correctly to get known is another story, and we know how to do it.",
+
+    "tercer-parrafo": "Do you already have a large community and are you satisfied with your income? Remember that the hardest thing in the world of social media is not getting known; anyone can be viral for a month. The hardest part is to maintain it."
+  },
+
+  "faq": {
+    "titulo": "FAQ",
+    "introduction": "These are some of the most common questions from our clients:",
+    "preguntas": {
+      "pregunta-1": "If we work together, what do I have to do?",
+      "respuesta-1": "Simply create content and send it to your personal manager; he will do the rest. We have come to make the process easier for you with the best possible results.",
+      "pregunta-2": "How much do you charge for your services?",
+      "respuesta-2": "There is no fixed fee; it is a percentage of what your accounts generate per month, so we make sure that the profiles are in the best possible condition. If nothing is generated in a month, we don't charge anything, although we already take care of that not happening.",
+      "pregunta-3": "What type of content do you work with?",
+      "respuesta-3": "We are not ones to judge the content of our clients. You create, and we make it work.",
+      "pregunta-4": "Do I have to have a minimum number of followers to work with you?",
+      "respuesta-4": "No, in fact, we work with all kinds of profiles, whether you have just opened your account or already have a created community.",
+      "pregunta-5": "How often do I have to pass content to my manager?",
+      "respuesta-5": "You can do it as often as you want. However, we recommend 1 to 3 photos/videos daily for the best results. Remember that by leaving us the management of your profiles, you will have much more time to create content.",
+      "pregunta-6": "Do photos and videos have to be professional?",
+      "respuesta-6": "There are no quality standards. We recommend being creative and doing your best with your own means.",
+      "pregunta-7": "How long does it take to see results?",
+      "respuesta-7": "From our experience, about 2 months. That's why the first contract we sign has that duration.",
+      "pregunta-8": "Can I really make a living from social media?",
+      "respuesta-8": "Of course! Many influencers earn the same or even more than any conventional job, and in some cases, they reach stratospheric figures. However, you should know that 80% of social media profiles do not exceed $300 per month. This is the 80% that has not yet hired our services."
+    }
+  },
+
+  "formulario": {
+    "h3-1": "Here is the form",
+    "h3-2": "Fill it out now!",
+    "nombre": "Name",
+    "apellidos": "Last Name",
+    "correo": "Email",
+    "telefono": "Phone",
+    "mensaje": "Leave us a message...(optional)",
+    "enviar": "Submit"
+  },
+
+  "footer": {
+    "descripcion": "©2023 SocialVibe Agency, All rights reserved."
+  }
+}

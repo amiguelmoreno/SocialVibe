@@ -1,0 +1,112 @@
+{
+  "header": {
+    "sections": {
+      "inicio": "Accueil",
+      "servicios": "Services",
+      "faq": "FAQ",
+      "contacto": "Contact"
+    }
+  },
+
+  "slogan": {
+    "primera-parte": "Création",
+    "segunda-parte": "CONNEXIONS",
+    "tercera-parte": "Construction",
+    "cuarta-parte": "COMMUNAUTÉS"
+  },
+
+  "introduction": {
+    "h1": "Découvrez SocialVibe Agency",
+
+    "primer-parrafo": "Si vous lisez ceci, vous avez probablement déjà un profil sur Instagram, TikTok..., vous publiez du contenu et vous savez que l'on peut gagner beaucoup d'argent avec ces plateformes. Que vous fassiez une vidéo en dansant sur votre chanson préférée ou que vous montriez ce que vous avez mangé aujourd'hui, tout contenu a son public, mais tout le monde ne sait pas comment atteindre ce public, et ce public sait rarement comment vous trouver.",
+
+    "segundo-parrafo": "Chez SocialVibe Agency, nous vous aidons à orienter votre contenu dans la bonne direction. Nous sommes une agence de marketing numérique spécialisée dans la gestion des médias sociaux.",
+
+    "tercer-parrafo": "La nécessité de créer SocialVibe Agency vient de la constatation du grand nombre de profils qui existent et qui ont besoin d'aide. Et aussi de faire quelque chose d'original, professionnel et amusant. Dans lequel nous gagnons tous. De l'argent. Beaucoup."
+  },
+
+  "services": {
+    "titulo": "CE QUE NOUS VOUS OFFRONS...",
+    "primer-servicio": {
+      "titulo": "Gestion de vos réseaux sociaux",
+      "descripcion": "Que ce soit sur Instagram, TikTok ou YouTube, vous n'avez qu'à créer et envoyer le contenu à votre manager personnel, qui se chargera de le publier sur la plateforme de manière à maximiser la portée et l'engagement au sein de votre communauté."
+    },
+    "segundo-servicio": {
+      "titulo": "Répondre à vos chats",
+      "descripcion": "Nous nous chargeons de répondre à tous vos abonnés avec un traitement personnel et proche, tout comme vous le feriez, mais avec notre professionnalisme et notre expérience en vente et gestion de communautés."
+    },
+    "tercer-servicio": {
+      "titulo": "Réunion mensuelle",
+      "descripcion": "Une fois par mois, vous vous réunirez avec votre manager personnel pour évaluer les résultats obtenus au cours du mois (abonnés, revenus, publications, statistiques...).",
+      "descripcion-2": "Il y a généralement toujours quelque chose à discuter des deux côtés : des questions se posent, de nouvelles idées, ce qui peut être amélioré pour les mois suivants, comment l'agence vous aide, etc. Nous ne parlons pas seulement de chiffres, nous aimons aussi recevoir des retours d'information."
+    },
+    "cuarto-servicio": {
+      "titulo": "Édition de votre contenu",
+      "descripcion": "Vous n'êtes pas à l'aise pour éditer le contenu ou cela vous donne de la paresse ? Pas de souci, nous nous occupons également de l'édition du contenu que vous nous envoyez.",
+      "descripcion-2": "Que ce soit les photos ou les vidéos que nous allons publier, votre manager se chargera de l'édition !"
+    },
+    "quinto-servicio": {
+      "titulo": "Contact direct avec votre manager",
+      "descripcion": "Si vous avez quelque chose à discuter avec votre manager, vous pouvez le faire. Il vous suffit de lui écrire sur WhatsApp et il vous répondra dès que possible.",
+      "descripcion-2": "Oubliez l'envoi d'e-mails à un support technique dans un autre pays en attendant des heures pour des réponses génériques. Vous savons-nous avons dit que nous apprécions la proximité ?"
+    }
+  },
+
+  "valores": {
+    "titulo": "Nos valeurs",
+    "introduction": "Il est important que vous connaissiez les valeurs de la personne avec laquelle vous allez travailler et en qui vous allez placer votre confiance.",
+    "confianza": "Confiance",
+    "compromiso": "Engagement",
+    "flexibilidad": "Flexibilité",
+    "privacidad": "Confidentialité",
+    "transparencia": "Transparence"
+  },
+
+  "ocupamos": {
+    "titulo": "Sérieusement, vous ne pouvez pas tout gérer seul(e)",
+
+    "primer-parrafo": "Je sais ce que vous pensez. L'intention et l'envie sont là, mais si vous voulez exploser et atteindre le maximum de personnes, si vous voulez créer une grande communauté, avoir des revenus élevés, si vous voulez vraiment vivre de la création de contenu, il est indispensable de déléguer du travail.",
+
+    "segundo-parrafo": "D'abord, vous devrez savoir comment commencer. Tout le monde peut créer un profil et commencer à publier du contenu, mais savoir comment utiliser correctement votre contenu et vos réseaux sociaux pour vous faire connaître, c'est autre chose, et nous savons comment le faire.",
+
+    "tercer-parrafo": "Avez-vous déjà une grande communauté et êtes-vous satisfait(e) de vos revenus ? N'oubliez pas que la chose la plus difficile dans le monde des médias sociaux n'est pas de se faire connaître ; n'importe qui peut devenir viral pendant un mois. La chose la plus difficile est de le maintenir."
+  },
+
+  "faq": {
+    "titulo": "FAQ",
+    "introduction": "Voici quelques-unes des questions les plus fréquentes de nos clients :",
+    "preguntas": {
+      "pregunta-1": "Si nous travaillons ensemble, que devrai-je faire ?",
+      "respuesta-1": "Il vous suffit de créer du contenu et de l'envoyer à votre manager personnel ; il s'occupera du reste. Nous sommes là pour vous faciliter le processus avec les meilleurs résultats possibles.",
+      "pregunta-2": "Combien facturez-vous pour vos services ?",
+      "respuesta-2": "Il n'y a pas de frais fixes ; il s'agit d'un pourcentage de ce que vos comptes génèrent chaque mois, c'est pourquoi nous veillons à ce que les profils fonctionnent au mieux. Si rien n'est généré un mois, nous ne facturons rien, bien que nous nous assurions déjà que cela ne se produise pas.",
+      "pregunta-3": "Avec quel type de contenu travaillez-vous ?",
+      "respuesta-3": "Nous ne sommes pas là pour juger le contenu de nos clients. Vous créez, et nous faisons en sorte que cela fonctionne.",
+      "pregunta-4": "Dois-je avoir un nombre minimum d'abonnés pour travailler avec vous ?",
+      "respuesta-4": "Non, en fait, nous travaillons avec tous types de profils, que vous veniez d'ouvrir votre compte ou que vous ayez déjà une communauté établie.",
+      "pregunta-5": "À quelle fréquence dois-je envoyer du contenu à mon manager ?",
+      "respuesta-5": "Vous pouvez le faire aussi souvent que vous le souhaitez. Cependant, nous recommandons de 1 à 3 photos/vidéos par jour pour obtenir les meilleurs résultats. N'oubliez pas que, en nous confiant la gestion de vos profils, vous aurez beaucoup plus de temps pour créer du contenu.",
+      "pregunta-6": "Les photos et vidéos doivent-elles être professionnelles ?",
+      "respuesta-6": "Il n'y a pas de normes de qualité. Nous recommandons d'être créatif et de faire de votre mieux avec vos propres moyens.",
+      "pregunta-7": "Combien de temps faut-il pour voir les résultats ?",
+      "respuesta-7": "D'après notre expérience, environ 2 mois. C'est pourquoi le premier contrat que nous signons a cette durée.",
+      "pregunta-8": "Puis-je vraiment vivre des réseaux sociaux ?",
+      "respuesta-8": "Bien sûr ! De nombreux influenceurs gagnent autant, voire plus, que n'importe quel travail conventionnel, et dans certains cas, ils atteignent des chiffres astronomiques. Cependant, sachez que 80 % des profils sur les réseaux sociaux ne dépassent pas les 300 $ par mois. C'est ce 80 % qui n'a pas encore fait appel à nos services."
+    }
+  },
+
+  "formulario": {
+    "h3-1": "Voici le formulaire",
+    "h3-2": "Remplissez-le maintenant !",
+    "nombre": "Nom",
+    "apellidos": "Nom de famille",
+    "correo": "E-mail",
+    "telefono": "Téléphone",
+    "mensaje": "Laissez-nous un message...(facultatif)",
+    "enviar": "Envoyer"
+  },
+
+  "footer": {
+    "descripcion": "©2023 SocialVibe Agency, Tous droits réservés."
+  }
+}

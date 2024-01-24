@@ -1,0 +1,112 @@
+{
+  "header": {
+    "sections": {
+      "inicio": "Inicio",
+      "servicios": "Servicios",
+      "faq": "FAQ",
+      "contacto": "Contacto"
+    }
+  },
+
+  "slogan": {
+    "primera-parte": "Creando",
+    "segunda-parte": "CONEXIONES",
+    "tercera-parte": "Construyendo",
+    "cuarta-parte": "COMUNIDADES"
+  },
+
+  "introduction": {
+    "h1": "Descubre SocialVibe Agency",
+
+    "primer-parrafo": "Si estás leyendo esto, seguramente ya tengas un perfil en Instagram, Tiktok..., subes contenido y sabes que se puede ganar mucho dinero con estas plataformas. Ya sea haciendo video bailando con tu canción favorita o lo que has comido hoy, cualquier contenido tiene su público pero no todo el mundo sabe llegar a dicho público y éste rara vez sabe encontrarte.",
+
+    "segundo-parrafo": "En SocialVibe Agency te ayudamos a que sepas dirigir tu contenido en la dirección correcta. Somos una agencia de marketing digital especializada en la gestión de redes sociales.",
+
+    "tercer-parrafo": "La necesidad de crear SocialVibe Agency nace de ver la gran cantidad de perfiles que existen y necesitan ayuda. Y también de hacer algo original, profesional y divertido. En la que todos ganemos. Dinero. Mucho."
+  },
+
+  "services": {
+    "titulo": "LO QUE TE OFRECEMOS...",
+    "primer-servicio": {
+      "titulo": "Gestionamos tus Redes Sociales",
+      "descripcion": "Ya sea Instagram, TikTok o YouTube, tú sólo tendrás que crear y enviar el contenido a tu manager personal, el cual se encargará de subirlo a la plataforma de forma que produzca el mayor alcance y engagement posible entre tu comunidad."
+    },
+    "segundo-servicio": {
+      "titulo": "Responder tus chats",
+      "descripcion": "Nos encargamos de responder a todos tus seguidores con un trato personal y cercano, tal y como tú lo harías pero con nuestra profesionalidad y experiencia en ventas y gestión de comunidades."
+    },
+    "tercer-servicio": {
+      "titulo": "Reunión Mensual",
+      "descripcion": "Una vez al mes, te reunirás con tu manager personal para evaluar los resultados obtenidos durante el mes (seguidores, ingresos, publicaciones, estadísticas…).",
+      "descripcion-2": "Normalmente siempre hay algo que comentar por ambas partes: surgen preguntas, nuevas ideas, qué se puede mejorar para los siguientes meses, cómo le está ayudando la agencia, etc. No sólo hablamos de números, también nos gusta recibir feedback."
+    },
+    "cuarto-servicio": {
+      "titulo": "Editamos tu contenido",
+      "descripcion": "¿Editar contenido no es lo tuyo o te da pereza? Tranqui, también nos encargamos de editar el contenido que nos envíes.",
+      "descripcion-2": "Tanto las fotos o vídeos que vamos a subir, ¡tu manager se encargará de la edición!"
+    },
+    "quinto-servicio": {
+      "titulo": "Contacto directo con tu mánager",
+      "descripcion": "En caso de que tengas cualquier cosa que hablar con tu manager, podrás hacerlo. Tan solo tendrás que escribirle por WhatsApp y te responderá lo más pronto que sea posible.",
+      "descripcion-2": "Olvídate de enviar mails a un soporte técnico de otro país esperando horas para respuestas genéricas. ¿Te hemos dicho que apreciamos la cercanía?"
+    }
+  },
+
+  "valores": {
+    "titulo": "Nuestros Valores",
+    "introduction": "Es importante que conozcas los valores de la persona con quien vas trabajar y en la que vas a depositar tu confianza.",
+    "confianza": "Confianza",
+    "compromiso": "Compromiso",
+    "flexibilidad": "Flexibilidad",
+    "privacidad": "Privacidad",
+    "transparencia": "Transparencia"
+  },
+
+  "ocupamos": {
+    "titulo": "En serio, no puedes ocuparte de todo tú sol@",
+
+    "primer-parrafo": "Sé lo que estás pensando. La intención y las ganas están ahí, pero si quieres explotar y llegar a la máxima cantidad de público, si quieres crear una gran comunidad, tener altos ingresos, si de verdad quieres vivir de crear contenido, es imprescindible que delegues trabajo.",
+
+    "segundo-parrafo": "Primero tendrás que saber cómo empezar. Cualquiera se puede crear un perfil y empezar a subir contenido, pero saber cómo usar correctamente tu contenido y redes sociales para que te conozcan son otras palabras, y nosotros sabemos cómo hacerlo.",
+
+    "tercer-parrafo": "¿Ya tienes una gran comunidad y estás satisfech@ con tus ingresos? Recuerda que lo más difícil en el mundillo de las redes sociales no es darte a conocer, cualquiera puede ser viral un mes, lo más difícil es mantenerlo."
+  },
+
+  "faq": {
+    "titulo": "FAQ",
+    "introduction": "Estas son algunas de las preguntas más comunes de nuestros clientes:",
+    "preguntas": {
+      "pregunta-1": "Si trabajamos juntos, ¿qué tendré que hacer yo?",
+      "respuesta-1": "Simplemente crear contenido y enviárselo a tu manager personal, él hará el resto. Hemos venido a facilitarte el proceso con los mejores resultados posibles.",
+      "pregunta-2": "¿Cuánto cobráis por vuestros servicios?",
+      "respuesta-2": "No hay una cuota fija, es un porcentaje de lo que tus cuentas generen al mes, por eso nos preocupamos de que los perfiles vayan lo mejor posible. Si un mes no se genera nada, no cobramos nada, aunque ya nos encargamos de que eso no pase.",
+      "pregunta-3": "¿Con qué tipo de contenido trabajáis?",
+      "respuesta-3": "Nosotros no somos quién para juzgar el contenido de nuestros clientes. Tú creas y nosotros hacemos que funcione.",
+      "pregunta-4": "¿Tengo que tener un mínimo de seguidores para trabajar con vosotros?",
+      "respuesta-4": "No, de hecho trabajamos con todo tipo de perfiles, tanto si acabas si acabas de abrir tu cuenta como si ya tienes una comunidad creada.",
+      "pregunta-5": "¿Cada cuánto tiempo tengo que pasarle contenido a mi manager?",
+      "respuesta-5": "Puedes hacerlo con la regularidad que tú quieras. Sin embargo, nosotros recomendamos de 1 a 3 fotos / vídeos diarios para obtener los mejores resultados. Recuerda que al dejarnos a nosotros el trabajo de gestión de tus perfiles, tendrás mucho más tiempo para crear contenido.",
+      "pregunta-6": "¿Las fotos y vídeos tienen que ser profesionales?",
+      "respuesta-6": "No hay unos estándares de calidad. Nosotros recomendamos ser creativos y hacerlo lo mejor posible con los medios propios.",
+      "pregunta-7": "¿Cuánto tiempo se tarda en ver los resultados?",
+      "respuesta-7": "Por nuestra experiencia, unos 2 meses. Por eso el primer contrato que firmamos tiene esa duración.",
+      "pregunta-8": "¿De verdad puedo vivir de las redes sociales?",
+      "respuesta-8": "¡Por supuesto! Muchos influencers ganan lo mismo o incluso más que cualquier trabajo convencional y en algunos casos llegan a alcanzar cifras estratosféricas. Sin embargo, debes saber que el 80% de los perfiles de redes sociales no superan los 300$ mensuales, este es el 80% que aún no ha contratado nuestros servicios."
+    }
+  },
+
+  "formulario": {
+    "h3-1": "Aquí tienes el formulario",
+    "h3-2": "¡rellénalo ahora!",
+    "nombre": "Nombre",
+    "apellidos": "Apellidos",
+    "correo": "Correo Electrónico",
+    "telefono": "Teléfono",
+    "mensaje": "Déjanos un mensaje...(opcional)",
+    "enviar": "Enviar"
+  },
+
+  "footer": {
+    "descripcion": "©2023 SocialVibe Agency, Todos los derechos reservados."
+  }
+}

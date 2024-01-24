@@ -1,0 +1,113 @@
+header {
+  width: 100%;
+
+  .menu-desktop {
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color-secundario);
+    position: fixed;
+    padding: 1rem 3rem;
+
+    @media only screen and (max-width: 800px) {
+      display: none;
+    }
+
+    .logo {
+      img {
+        margin-left: 7rem;
+        width: 20rem;
+        border-radius: 5px;
+        transition: all 0.4s;
+        border: 2px solid #2f2f2f;
+
+        @media only screen and (max-width: 1200px) {
+          margin-left: 0rem;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    .index {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+
+      ul {
+        display: flex;
+        gap: 3rem;
+        list-style: none;
+        font-size: 1.8rem;
+        letter-spacing: 0.2px;
+
+        a {
+          cursor: pointer;
+          padding: 0.2rem 0.8rem;
+          background-color: var(--color-primario);
+          border-radius: 5px;
+          border: 3px solid var(--color-primario);
+          transition: all 0.4s;
+          color: var(--color-secundario);
+          text-decoration: none;
+          transition: all 0.4s;
+          font-weight: 500;
+          font-family: "Poppins", serif;
+
+          &:hover {
+            color: var(--color-primario);
+            border: 3px solid var(--color-primario);
+          }
+
+          &:hover {
+            transform: scale(1.1);
+            background-color: var(--color-secundario);
+          }
+        }
+      }
+    }
+  }
+
+  .menu-mobile {
+    display: none;
+    z-index: 99;
+    width: 100%;
+    background-color: var(--color-secundario);
+    position: fixed;
+    bottom: 0;
+    padding: 2rem 3rem;
+    border-top: 2px solid var(--color-primario);
+
+    @media only screen and (max-width: 800px) {
+      display: unset;
+    }
+
+    .icons {
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2rem;
+        list-style: none;
+        line-height: 0;
+
+        a {
+          img {
+            width: 3rem;
+            border-radius: 5px;
+            filter: invert(100%);
+          }
+
+          .not-filter {
+            width: 4rem;
+            filter: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "header": {
+    "sections": {
+      "inicio": "Startseite",
+      "servicios": "Dienstleistungen",
+      "faq": "FAQ",
+      "contacto": "Kontakt"
+    }
+  },
+
+  "slogan": {
+    "primera-parte": "Schaffen",
+    "segunda-parte": "VERBINDUNGEN",
+    "tercera-parte": "Aufbauend",
+    "cuarta-parte": "GEMEINSCHAFTEN"
+  },
+
+  "introduction": {
+    "h1": "Entdecken Sie die SocialVibe Agentur",
+
+    "primer-parrafo": "Wenn Sie dies lesen, haben Sie wahrscheinlich bereits ein Profil auf Instagram, TikTok..., Sie laden Inhalte hoch und wissen, dass Sie mit diesen Plattformen viel Geld verdienen können. Ob Sie nun ein Video machen, in dem Sie zu Ihrem Lieblingssong tanzen, oder zeigen, was Sie heute gegessen haben, jeder Inhalt hat sein Publikum, aber nicht jeder weiß, wie man dieses Publikum erreicht, und dieses Publikum weiß selten, wie man Sie findet.",
+
+    "segundo-parrafo": "Bei der SocialVibe Agentur helfen wir Ihnen, Ihre Inhalte in die richtige Richtung zu lenken. Wir sind eine auf die Verwaltung von sozialen Medien spezialisierte Digitalmarketing-Agentur.",
+
+    "tercer-parrafo": "Die Notwendigkeit, die SocialVibe Agentur zu gründen, entstand aus der Erkenntnis, dass es viele Profile gibt, die Hilfe benötigen. Und auch, um etwas Originelles, Professionelles und Unterhaltsames zu schaffen. Wo wir alle gewinnen. Geld. Viel."
+  },
+
+  "services": {
+    "titulo": "WAS WIR BIETEN...",
+    "primer-servicio": {
+      "titulo": "Verwalten Sie Ihre sozialen Medien",
+      "descripcion": "Egal, ob Instagram, TikTok oder YouTube, Sie müssen nur Inhalte erstellen und an Ihren persönlichen Manager senden, der sich darum kümmert, sie auf die Plattform hochzuladen, um die größtmögliche Reichweite und Interaktion in Ihrer Community zu erzielen."
+    },
+    "segundo-servicio": {
+      "titulo": "Antworten Sie auf Ihre Chats",
+      "descripcion": "Wir kümmern uns darum, auf alle Ihre Follower mit einer persönlichen und engen Behandlung zu antworten, genauso wie Sie es tun würden, aber mit unserer Professionalität und Erfahrung im Verkauf und in der Gemeindeverwaltung."
+    },
+    "tercer-servicio": {
+      "titulo": "Monatliches Treffen",
+      "descripcion": "Einmal im Monat treffen Sie sich mit Ihrem persönlichen Manager, um die erzielten Ergebnisse des Monats zu bewerten (Follower, Einnahmen, Veröffentlichungen, Statistiken...).",
+      "descripcion-2": "Normalerweise gibt es immer etwas zu besprechen, Fragen tauchen auf, neue Ideen, was für die nächsten Monate verbessert werden kann, wie die Agentur Ihnen hilft, usw. Wir sprechen nicht nur über Zahlen, sondern erhalten auch gerne Feedback."
+    },
+    "cuarto-servicio": {
+      "titulo": "Bearbeiten Sie Ihre Inhalte",
+      "descripcion": "Ist das Bearbeiten von Inhalten nicht Ihr Ding oder finden Sie es lästig? Keine Sorge, wir kümmern uns auch um das Bearbeiten der Inhalte, die Sie uns senden.",
+      "descripcion-2": "Sowohl die Fotos als auch die Videos, die wir hochladen werden, Ihr Manager wird sich um die Bearbeitung kümmern!"
+    },
+    "quinto-servicio": {
+      "titulo": "Direkter Kontakt mit Ihrem Manager",
+      "descripcion": "Wenn Sie etwas mit Ihrem Manager besprechen müssen, können Sie das tun. Sie müssen ihm nur auf WhatsApp schreiben, und er wird so schnell wie möglich antworten.",
+      "descripcion-2": "Vergessen Sie das Senden von E-Mails an den technischen Support in einem anderen Land und warten Stunden auf generische Antworten. Haben wir Ihnen schon gesagt, dass wir Nähe schätzen?"
+    }
+  },
+
+  "valores": {
+    "titulo": "Unsere Werte",
+    "introduction": "Es ist wichtig, dass Sie die Werte der Person kennen, mit der Sie arbeiten werden und der Sie Ihr Vertrauen schenken werden.",
+    "confianza": "Vertrauen",
+    "compromiso": "Engagement",
+    "flexibilidad": "Flexibilität",
+    "privacidad": "Datenschutz",
+    "transparencia": "Transparenz"
+  },
+
+  "ocupamos": {
+    "titulo": "Ernsthaft, Sie können nicht alles alleine bewältigen",
+
+    "primer-parrafo": "Ich weiß, was Sie denken. Die Absicht und der Wunsch sind da, aber wenn Sie explodieren und die maximale Anzahl an Menschen erreichen wollen, wenn Sie eine große Gemeinschaft aufbauen wollen, hohe Einnahmen haben wollen, wenn Sie wirklich davon leben wollen, Inhalte zu erstellen, ist es unerlässlich, Arbeit zu delegieren.",
+
+    "segundo-parrafo": "Zuerst müssen Sie wissen, wie Sie anfangen sollen. Jeder kann ein Profil erstellen und Inhalte hochladen, aber zu wissen, wie Sie Ihre Inhalte und sozialen Medien richtig nutzen, um bekannt zu werden, ist eine andere Geschichte, und wir wissen, wie das geht.",
+
+    "tercer-parrafo": "Haben Sie bereits eine große Gemeinschaft und sind Sie mit Ihren Einnahmen zufrieden? Denken Sie daran, dass das Schwierigste in der Welt der sozialen Medien nicht darin besteht, bekannt zu werden; jeder kann einen Monat lang viral sein. Das Schwierigste ist, es aufrechtzuerhalten."
+  },
+
+  "faq": {
+    "titulo": "FAQ",
+    "introduction": "Dies sind einige der häufigsten Fragen unserer Kunden:",
+    "preguntas": {
+      "pregunta-1": "Wenn wir zusammenarbeiten, was muss ich tun?",
+      "respuesta-1": "Erstellen Sie einfach Inhalte und senden Sie sie an Ihren persönlichen Manager; er wird den Rest erledigen. Wir sind gekommen, um Ihnen den Prozess mit den bestmöglichen Ergebnissen zu erleichtern.",
+      "pregunta-2": "Wie viel berechnen Sie für Ihre Dienstleistungen?",
+      "respuesta-2": "Es gibt keine feste Gebühr; es handelt sich um einen Prozentsatz von dem, was Ihre Konten pro Monat generieren, daher achten wir darauf, dass die Profile so gut wie möglich laufen. Wenn in einem Monat nichts generiert wird, berechnen wir nichts, obwohl wir bereits dafür sorgen, dass dies nicht passiert.",
+      "pregunta-3": "Mit welcher Art von Inhalten arbeiten Sie?",
+      "respuesta-3": "Wir sind nicht diejenigen, die den Inhalt unserer Kunden beurteilen. Sie erstellen, und wir machen es funktionieren.",
+      "pregunta-4": "Muss ich eine Mindestanzahl von Anhängern haben, um mit Ihnen zu arbeiten?",
+      "respuesta-4": "Nein, tatsächlich arbeiten wir mit allen Arten von Profilen, sowohl wenn Sie gerade Ihr Konto eröffnet haben als auch wenn Sie bereits eine Gemeinschaft haben.",
+      "pregunta-5": "Wie oft muss ich Inhalte an meinen Manager senden?",
+      "respuesta-5": "Sie können dies so oft tun, wie Sie möchten. Wir empfehlen jedoch, täglich 1 bis 3 Fotos/Videos für die besten Ergebnisse zu senden. Denken Sie daran, dass Sie, wenn Sie uns die Verwaltung Ihrer Profile überlassen, viel mehr Zeit für die Erstellung von Inhalten haben.",
+      "pregunta-6": "Müssen die Fotos und Videos professionell sein?",
+      "respuesta-6": "Es gibt keine Qualitätsstandards. Wir empfehlen, kreativ zu sein und das Beste mit den eigenen Mitteln zu tun.",
+      "pregunta-7": "Wie lange dauert es, bis Ergebnisse sichtbar sind?",
+      "respuesta-7": "Nach unserer Erfahrung etwa 2 Monate. Deshalb hat der erste Vertrag, den wir abschließen, diese Laufzeit.",
+      "pregunta-8": "Kann ich wirklich von sozialen Medien leben?",
+      "respuesta-8": "Natürlich! Viele Influencer verdienen genauso viel oder sogar mehr als jeder herkömmliche Job, und in einigen Fällen erreichen sie astronomische Zahlen. Sie sollten jedoch wissen, dass 80% der Profile in sozialen Medien die 300 US-Dollar pro Monat nicht überschreiten. Dies ist das 80%, das unsere Dienstleistungen noch nicht in Anspruch genommen hat."
+    }
+  },
+
+  "formulario": {
+    "h3-1": "Hier ist das Formular",
+    "h3-2": "Füllen Sie es jetzt aus!",
+    "nombre": "Name",
+    "apellidos": "Nachname",
+    "correo": "E-Mail",
+    "telefono": "Telefon",
+    "mensaje": "Hinterlassen Sie uns eine Nachricht...(optional)",
+    "enviar": "Senden"
+  },
+
+  "footer": {
+    "descripcion": "©2023 SocialVibe Agentur, Alle Rechte vorbehalten."
+  }
+}

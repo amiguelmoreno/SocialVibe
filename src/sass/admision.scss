@@ -1,0 +1,106 @@
+.admision {
+    display: none;
+    position: absolute;
+    margin-top: 12rem;
+    max-width: 90vw;
+
+    @media only screen and (max-width: 600px) {
+        margin-top: 10rem;
+    }
+
+    a {
+        font-weight: 600;
+        color: var(--color-secundario);
+    }
+
+    .flecha1,
+    .flecha2 {
+        width: 13rem;
+        position: absolute;
+        filter: hue-rotate(270deg);
+
+        @media only screen and (max-width: 600px) {
+            display: none;
+        }
+    }
+
+    .flecha1 {
+        top: 22rem;
+        right: 28rem;
+        transform: scaleY(-1) rotate(-10deg);
+    }
+
+    .flecha2 {
+        bottom: 13rem;
+        right: 28rem;
+        transform: scaleY(-1) rotate(-100deg);
+    }
+
+    h2 {
+        border-radius: 10px;
+    }
+
+    body,
+    html {
+        height: 100%;
+    }
+
+    .pasos {
+        margin-top: 10rem;
+        max-width: 90rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+
+        @media only screen and (max-width: 600px) {
+            grid-template-columns: 1fr;
+            margin-top: 5rem;
+        }
+
+        .paso {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: fit-content;
+            border-radius: 10px;
+            padding: 3rem 1rem;
+            background-color: rgba(131, 74, 255, 0.191);
+
+            &:nth-child(2) {
+                margin-top: 20rem;
+
+                @media only screen and (max-width: 600px) {
+                    margin-top: 0rem;
+                }
+            }
+
+            &:nth-child(3) {
+                margin-top: -20rem;
+
+                @media only screen and (max-width: 600px) {
+                    margin-top: 0;
+                }
+            }
+
+            h3 {
+                text-align: center;
+                color: var(--color-secundario);
+                margin: 3rem 0 1rem;
+
+                @media only screen and (max-width: 600px) {
+                    margin: 2rem 0 0rem;
+                    font-weight: 600;
+                }
+            }
+
+            img {
+                border-radius: 10px;
+                width: 15rem;
+
+                @media only screen and (max-width: 600px) {
+                    width: 8rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,106 @@
+.form-section {
+    //width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .call {
+        text-align: center;
+
+        h3 {
+            font-size: 3rem;
+            animation: pulse 1.3s forwards;
+            animation-delay: 0.3s;
+            animation-iteration-count: infinite;
+
+            @media only screen and (max-width: 600px) {
+                font-size: 2.4rem;
+            }
+        }
+
+        img {
+            margin: 2rem 0;
+            width: 6rem;
+            transform: rotate(90deg);
+        }
+    }
+
+    form {
+        background-color: var(--color-secundario);
+        padding: 2rem;
+        font-size: 1.6rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        gap: 2rem;
+
+        .form-part {
+            position: relative;
+            color: white;
+
+            @media only screen and (max-width: 600px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            input,
+            select,
+            textarea {
+                padding: 0.6rem 1rem;
+                width: 35rem;
+                font-size: 1.8rem;
+                border: 1px solid transparent;
+                border-radius: 5px;
+
+                &:focus {
+                    outline-color: #1a1a1a;
+                }
+
+                @media only screen and (max-width: 600px) {
+                    position: relative;
+                    left: 0;
+                    font-size: 1.5rem;
+                }
+            }
+
+            textarea {
+                resize: none;
+            }
+        }
+        button {
+            padding: 1rem;
+            font-size: 2rem;
+            width: 18rem;
+            align-self: center;
+            border-radius: 10px;
+            background-color: white;
+            border: 3px solid var(--color-secundario);
+            color: var(--color-secundario);
+            transition: all 0.4s;
+
+            &:hover {
+                border: 3px solid white;
+                color: white;
+                background-color: var(--color-secundario);
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+@keyframes pulse {
+    0% {
+        /* Comienza en 0 */
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1); /* Termina en 1 */
+    }
+}
