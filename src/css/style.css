@@ -106,8 +106,8 @@ p {
  */
 .intro {
   background-color: var(--color-secundario);
-  height: 100%;
-  top: 0;
+  height: 100vh;
+  top: -3rem;
   left: 0;
   width: 100%;
   position: fixed;
@@ -282,7 +282,7 @@ header .menu-mobile .icons ul a .not-filter {
 }
 @media only screen and (max-width: 800px) {
   .slogan .creating-connections {
-    margin-left: -7rem;
+    margin-left: -2rem;
   }
 }
 .slogan .creating-connections .creating {
@@ -345,7 +345,7 @@ header .menu-mobile .icons ul a .not-filter {
 }
 @media only screen and (max-width: 800px) {
   .slogan .building-communitites {
-    margin-left: 0rem;
+    margin-left: 2rem;
   }
 }
 .slogan .building-communitites .building {
@@ -367,7 +367,7 @@ header .menu-mobile .icons ul a .not-filter {
 }
 @media only screen and (max-width: 600px) {
   .slogan .building-communitites .building p {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
 }
 .slogan .building-communitites .communitites {
@@ -397,7 +397,7 @@ header .menu-mobile .icons ul a .not-filter {
 }
 @media only screen and (max-width: 600px) {
   .slogan .building-communitites .communitites p {
-    font-size: 6.5rem;
+    font-size: 6rem;
   }
 }
 
