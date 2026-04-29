@@ -1,8 +1,9 @@
 import logo from "../../assets/images/sv-logo1.webp";
-import homeIcon from "../../assets/images/sv.webp";
 import servicioIcon from "../../assets/icons/servicios-menu.webp";
 import faqIcon from "../../assets/icons/faq-menu.webp";
 import contactoIcon from "../../assets/icons/contacto-menu.webp";
+
+const homeIcon = "/sv.webp";
 import { useTranslation } from "react-i18next";
 
 function Header() {

@@ -115,7 +115,7 @@ p {
   align-items: center;
   justify-content: center;
   will-change: transform;
-  transition: transform 1s ease;
+  transition: transform 0.7s ease;
 }
 .intro img {
   opacity: 0;
