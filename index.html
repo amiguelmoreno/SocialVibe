@@ -31,9 +31,34 @@
     <!-- Preload LCP image (mobile nav home icon) para descubrimiento inmediato -->
     <link rel="preload" as="image" href="/sv.webp" fetchpriority="high" type="image/webp" />
 
-    <!-- Inline font fallback para evitar FOUT visible -->
+    <!-- Critical CSS: intro overlay + CSS vars (evita FOUC mientras carga el CSS async) -->
     <style>
+      :root {
+        --color-primario: white;
+        --color-secundario: #480da0;
+      }
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
       body { font-family: system-ui, -apple-system, sans-serif; }
+      .intro {
+        background-color: var(--color-secundario);
+        height: 100vh;
+        top: 0; left: 0;
+        width: 100%;
+        position: fixed;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        will-change: transform;
+        transition: transform 0.4s ease;
+      }
+      .intro img {
+        width: 50rem;
+        max-width: 90vw;
+        height: auto;
+        border-radius: 10px;
+      }
     </style>
   </head>
   <body>

@@ -1,7 +1,21 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+function asyncCssPlugin() {
+  return {
+    name: 'async-css',
+    apply: 'build',
+    transformIndexHtml(html) {
+      return html.replace(
+        /<link rel="stylesheet" crossorigin href="([^"]+)">/g,
+        (_, href) =>
+          `<link rel="preload" as="style" crossorigin href="${href}" onload="this.onload=null;this.rel='stylesheet'">` +
+          `<noscript><link rel="stylesheet" crossorigin href="${href}"></noscript>`
+      );
+    },
+  };
+}
+
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), asyncCssPlugin()],
 })

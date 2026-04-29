@@ -6,7 +6,7 @@ function Intro() {
     const timeout = setTimeout(() => {
       const intro = document.querySelector(".intro");
       if (intro) intro.style.transform = "translateY(-100vh)";
-    }, 900);
+    }, 500);
 
     return () => clearTimeout(timeout);
   }, []);
