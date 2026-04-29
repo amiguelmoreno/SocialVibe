@@ -11,13 +11,16 @@
         text-align: center;
         background-color: var(--color-secundario);
         color: var(--color-primario);
-        width: 100%;
+        width: fit-content;
         font-family: "Source Serif Pro", serif;
         font-weight: 700;
         position: relative;
         align-self: start;
         padding-left: 10vw;
         margin-bottom: 5rem;
+        margin-left: calc((100% - 100vw) / 2);
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
 
         @media only screen and (max-width: 600px) {
             padding-left: 2rem;
