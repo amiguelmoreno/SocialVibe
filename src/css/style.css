@@ -496,15 +496,13 @@ header .menu-mobile .icons ul a .not-filter {
   text-align: center;
   background-color: var(--color-secundario);
   color: var(--color-primario);
-  width: fit-content;
+  width: 100%;
   font-family: "Source Serif Pro", serif;
   font-weight: 700;
   position: relative;
   align-self: start;
   padding-left: 10vw;
   margin-bottom: 5rem;
-  border-top-right-radius: 100px;
-  border-bottom-right-radius: 100px;
 }
 @media only screen and (max-width: 600px) {
   .ocupamos h2 {
