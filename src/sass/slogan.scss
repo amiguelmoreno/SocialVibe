@@ -7,7 +7,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  //  gap: 5rem;
   position: relative;
   background-color: transparent;
 
@@ -15,12 +14,9 @@
     margin-top: -5rem;
     margin-bottom: 5rem;
     height: 80vh;
-    // background-image: url(../assets/images/humo-inicio.mp4);
-    //  background-color: rgba(255, 255, 255, 0.647);
   }
 
   p {
-    font-family: "Roboto Slab", serif;
     font-family: "Source Serif Pro", serif;
     margin: 0;
     font-size: 12rem;
@@ -50,9 +46,6 @@
 
     .creating {
       align-self: start;
-      opacity: 0;
-      animation: animacion 1.4s forwards;
-      animation-delay: calc(0.3s + 2s);
       p {
         font-size: 10rem;
         text-transform: uppercase;
@@ -70,9 +63,6 @@
 
     .connections {
       color: var(--color-secundario);
-      opacity: 0;
-      animation: animacion 1.4s forwards;
-      animation-delay: calc(1s + 2s);
       p {
         font-size: 15rem;
         line-height: 1;
@@ -89,11 +79,9 @@
 
   .building-communitites {
     display: flex;
-    //align-self: flex-end;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    //padding-right: 12rem;
     font-size: 12rem;
     font-weight: 700;
     line-height: 1.2;
@@ -109,9 +97,6 @@
     }
 
     .building {
-      opacity: 0;
-      animation: animacion 1.3s forwards;
-      animation-delay: calc(1.6s + 2s);
       align-self: start;
 
       p {
@@ -131,9 +116,6 @@
 
     .communitites {
       color: var(--color-secundario);
-      opacity: 0;
-      animation: animacion 1.3s forwards;
-      animation-delay: calc(2.2s + 2s);
       p {
         font-size: 15rem;
         line-height: 1;
@@ -158,18 +140,12 @@
   }
 }
 
-@keyframes animacion {
-  100% {
-    opacity: 1;
-    // transform: translateX(0%);
-  }
+/* Transform-only slide-up: text is always opacity:1 so LCP is measured at first render */
+.slogan-anim {
+  animation: sloganSlideUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
-@keyframes aparecer {
-  70% {
-    opacity: 0; /* Comienza en 0 */
-  }
-  100% {
-    opacity: 1; /* Termina en 1 */
-  }
+@keyframes sloganSlideUp {
+  from { transform: translateY(2rem); }
+  to   { transform: none; }
 }

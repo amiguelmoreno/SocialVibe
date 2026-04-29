@@ -18,13 +18,13 @@
     <link
       rel="preload"
       as="style"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Serif+Pro:wght@600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Serif+Pro:wght@600;700&display=optional"
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <noscript>
       <link
         rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Serif+Pro:wght@600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Serif+Pro:wght@600;700&display=optional"
       />
     </noscript>
 
@@ -63,6 +63,10 @@
     </style>
   </head>
   <body>
+    <!-- Pre-rendered intro overlay: paints before React boots (improves FCP) -->
+    <div id="prerender-intro" style="background-color:#480da0;height:100vh;width:100%;position:fixed;top:0;left:0;z-index:10000;display:flex;align-items:center;justify-content:center;">
+      <img src="/sv-logo1.webp" alt="logo Social Vibe" width="445" height="137" style="width:min(50rem,90vw);height:auto;border-radius:10px;" />
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

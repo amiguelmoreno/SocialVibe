@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -49,24 +50,25 @@ html {
   transform: translateY(8rem);
 }
 
-[data-aos=fade-up] {
+/* Elements start visible; JS adds aos-pending only when off-screen → no LCP penalty */
+[data-aos=fade-up].aos-pending {
   opacity: 0;
   transform: translateY(2.5rem);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-[data-aos=fade-up].aos-animate {
-  opacity: 1;
-  transform: none;
 }
 
-[data-aos=fade-down] {
+[data-aos=fade-down].aos-pending {
   opacity: 0;
   transform: translateY(-2.5rem);
+}
+
+[data-aos].aos-pending {
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
-[data-aos=fade-down].aos-animate {
+
+[data-aos].aos-animate {
   opacity: 1;
   transform: none;
+  transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 h2 {
@@ -285,7 +287,6 @@ header .menu-mobile .icons ul a .not-filter {
   }
 }
 .slogan p {
-  font-family: "Roboto Slab", serif;
   font-family: "Source Serif Pro", serif;
   margin: 0;
   font-size: 12rem;
@@ -316,9 +317,6 @@ header .menu-mobile .icons ul a .not-filter {
 }
 .slogan .creating-connections .creating {
   align-self: start;
-  opacity: 0;
-  animation: animacion 1.4s forwards;
-  animation-delay: 2.3s;
 }
 .slogan .creating-connections .creating p {
   font-size: 10rem;
@@ -338,9 +336,6 @@ header .menu-mobile .icons ul a .not-filter {
 }
 .slogan .creating-connections .connections {
   color: var(--color-secundario);
-  opacity: 0;
-  animation: animacion 1.4s forwards;
-  animation-delay: 3s;
 }
 .slogan .creating-connections .connections p {
   font-size: 15rem;
@@ -378,9 +373,6 @@ header .menu-mobile .icons ul a .not-filter {
   }
 }
 .slogan .building-communitites .building {
-  opacity: 0;
-  animation: animacion 1.3s forwards;
-  animation-delay: 3.6s;
   align-self: start;
 }
 .slogan .building-communitites .building p {
@@ -401,9 +393,6 @@ header .menu-mobile .icons ul a .not-filter {
 }
 .slogan .building-communitites .communitites {
   color: var(--color-secundario);
-  opacity: 0;
-  animation: animacion 1.3s forwards;
-  animation-delay: 4.2s;
 }
 .slogan .building-communitites .communitites p {
   font-size: 15rem;
@@ -430,17 +419,17 @@ header .menu-mobile .icons ul a .not-filter {
   }
 }
 
-@keyframes animacion {
-  100% {
-    opacity: 1;
-  }
+/* Transform-only slide-up: text is always opacity:1 so LCP is measured at first render */
+.slogan-anim {
+  animation: sloganSlideUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
-@keyframes aparecer {
-  70% {
-    opacity: 0; /* Comienza en 0 */
+
+@keyframes sloganSlideUp {
+  from {
+    transform: translateY(2rem);
   }
-  100% {
-    opacity: 1; /* Termina en 1 */
+  to {
+    transform: none;
   }
 }
 .introduction {

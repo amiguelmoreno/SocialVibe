@@ -2,9 +2,8 @@ import { useEffect, lazy, Suspense } from "react";
 import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
 import Slogan from "./components/Slogan/Slogan";
+import Introduction from "./components/Introduction/Introduction";
 import "./css/style.css";
-
-const Introduction = lazy(() => import("./components/Introduction/Introduction"));
 const Services = lazy(() => import("./components/Services/Services"));
 const Values = lazy(() => import("./components/Values/Values"));
 const Ocupamos = lazy(() => import("./components/Ocupamos/Ocupamos"));
@@ -15,12 +14,22 @@ const Footer = lazy(() => import("./components/Footer/Footer"));
 
 function App() {
   useEffect(() => {
+    // Remove static pre-rendered intro once React is mounted
+    const pre = document.getElementById("prerender-intro");
+    if (pre) pre.remove();
+  }, []);
+
+  useEffect(() => {
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
+            entry.target.classList.remove("aos-pending");
             entry.target.classList.add("aos-animate");
             io.unobserve(entry.target);
+          } else {
+            // Off-screen: mark invisible so it can animate in when scrolled to
+            entry.target.classList.add("aos-pending");
           }
         });
       },
@@ -51,8 +60,8 @@ function App() {
       <Header />
       <main>
         <Slogan />
+        <Introduction />
         <Suspense>
-          <Introduction />
           <Services />
           <Values />
           <Ocupamos />
