@@ -738,7 +738,8 @@ header .menu-mobile .icons ul a .not-filter {
     font-size: 2.4rem;
   }
 }
-.form-section .call img {
+.form-section .call img,
+.form-section .call video {
   margin: 2rem 0;
   width: 6rem;
   transform: rotate(90deg);
