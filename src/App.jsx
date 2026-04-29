@@ -15,19 +15,34 @@ const Footer = lazy(() => import("./components/Footer/Footer"));
 
 function App() {
   useEffect(() => {
-    const observer = new IntersectionObserver(
+    const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("aos-animate");
-            observer.unobserve(entry.target);
+            io.unobserve(entry.target);
           }
         });
       },
       { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
     );
-    document.querySelectorAll("[data-aos]").forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
+
+    const observeTree = (root) => {
+      if (root.nodeType !== 1) return;
+      if (root.hasAttribute("data-aos")) io.observe(root);
+      root.querySelectorAll("[data-aos]").forEach((el) => io.observe(el));
+    };
+
+    observeTree(document.body);
+
+    const mo = new MutationObserver((mutations) => {
+      mutations.forEach(({ addedNodes }) =>
+        addedNodes.forEach((node) => observeTree(node))
+      );
+    });
+    mo.observe(document.body, { childList: true, subtree: true });
+
+    return () => { io.disconnect(); mo.disconnect(); };
   }, []);
 
   return (
