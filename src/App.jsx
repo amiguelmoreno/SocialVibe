@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import "aos/dist/aos.css";
 import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
 import Slogan from "./components/Slogan/Slogan";
@@ -15,7 +14,19 @@ import "./css/style.css";
 
 function App() {
   useEffect(() => {
-    import("aos").then(({ default: AOS }) => AOS.init({}));
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("aos-animate");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
+    );
+    document.querySelectorAll("[data-aos]").forEach((el) => observer.observe(el));
+    return () => observer.disconnect();
   }, []);
 
   return (
