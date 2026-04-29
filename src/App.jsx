@@ -15,31 +15,27 @@ import Footer from "./components/Footer/Footer";
 import "./css/style.css";
 
 function App() {
-    useEffect(() => {
-        AOS.init({
-            // opciones de configuración de AOS aquí
-        });
-    }, []);
+  useEffect(() => {
+    AOS.init({});
+  }, []);
 
-    return (
-        <div className="App">
-            {/*  <div className="construction">
-                <h1>Página en construcción</h1>
-                <p>Vuelve más tarde 😉</p>
-            </div> */}
-            <Intro></Intro>
-            <Header></Header>
-            <Slogan></Slogan>
-            <Introduction></Introduction>
-            <Services></Services>
-            <Values></Values>
-            <Ocupamos></Ocupamos>
-            <Admision></Admision>
-            <FaqSection></FaqSection>
-            <Form></Form>
-            <Footer></Footer>
-        </div>
-    );
+  return (
+    <div className="App">
+      <Intro />
+      <Header />
+      <main>
+        <Slogan />
+        <Introduction />
+        <Services />
+        <Values />
+        <Ocupamos />
+        <Admision />
+        <FaqSection />
+        <Form />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

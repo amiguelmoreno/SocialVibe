@@ -45,6 +45,10 @@ header {
         font-size: 1.8rem;
         letter-spacing: 0.2px;
 
+        li {
+          display: contents;
+        }
+
         a {
           cursor: pointer;
           padding: 0.2rem 0.8rem;
@@ -94,6 +98,10 @@ header {
         gap: 2rem;
         list-style: none;
         line-height: 0;
+
+        li {
+          display: contents;
+        }
 
         a {
           img {

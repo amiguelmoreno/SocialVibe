@@ -1,8 +1,10 @@
-import Flecha from "../../assets/icons/flecha.gif";
+import FlechaWebm from "../../assets/icons/flecha.webm";
+import FlechaMp4 from "../../assets/icons/flecha.mp4";
+import GifVideo from "../GifVideo/GifVideo";
 import { useTranslation } from "react-i18next";
 
 function Form() {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
   return (
     <div id="contacto" className="form-section section">
       <div className="call" data-aos="fade-up" data-aos-once="true">
@@ -10,7 +12,7 @@ function Form() {
           {t("formulario.h3-1")} <br />
           {t("formulario.h3-2")}
         </h3>
-        <img src={Flecha} alt="" />
+        <GifVideo webm={FlechaWebm} mp4={FlechaMp4} alt="" width={89} height={89} />
       </div>
 
       <div className="form" data-aos="fade-up" data-aos-once="true">
@@ -91,7 +93,7 @@ function Form() {
             type="hidden"
             name="_next"
             value="https://socialvibeagency.netlify.app/thanks.html"
-          ></input>
+          />
           <input type="hidden" name="_captcha" value="true" />
           <button type="submit">{t("formulario.enviar")}</button>
         </form>
