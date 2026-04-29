@@ -436,6 +436,7 @@ header .menu-mobile .icons ul a .not-filter {
 .introduction {
   position: relative;
   margin-top: 10rem;
+  margin-bottom: 8rem;
 }
 @media only screen and (max-width: 800px) {
   .introduction {
