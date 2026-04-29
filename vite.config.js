@@ -18,4 +18,14 @@ function asyncCssPlugin() {
 
 export default defineConfig({
   plugins: [react(), asyncCssPlugin()],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor': ['react', 'react-dom'],
+          'i18n': ['i18next', 'react-i18next'],
+        },
+      },
+    },
+  },
 })

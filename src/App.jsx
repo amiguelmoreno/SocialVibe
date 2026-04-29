@@ -1,16 +1,17 @@
-import { useEffect } from "react";
+import { useEffect, lazy, Suspense } from "react";
 import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
 import Slogan from "./components/Slogan/Slogan";
-import Introduction from "./components/Introduction/Introduction";
-import Services from "./components/Services/Services";
-import Values from "./components/Values/Values";
-import Ocupamos from "./components/Ocupamos/Ocupamos";
-import Admision from "./components/Admision/Admision";
-import FaqSection from "./components/FaqSection/FaqSection";
-import Form from "./components/Form/Form";
-import Footer from "./components/Footer/Footer";
 import "./css/style.css";
+
+const Introduction = lazy(() => import("./components/Introduction/Introduction"));
+const Services = lazy(() => import("./components/Services/Services"));
+const Values = lazy(() => import("./components/Values/Values"));
+const Ocupamos = lazy(() => import("./components/Ocupamos/Ocupamos"));
+const Admision = lazy(() => import("./components/Admision/Admision"));
+const FaqSection = lazy(() => import("./components/FaqSection/FaqSection"));
+const Form = lazy(() => import("./components/Form/Form"));
+const Footer = lazy(() => import("./components/Footer/Footer"));
 
 function App() {
   useEffect(() => {
@@ -35,15 +36,17 @@ function App() {
       <Header />
       <main>
         <Slogan />
-        <Introduction />
-        <Services />
-        <Values />
-        <Ocupamos />
-        <Admision />
-        <FaqSection />
-        <Form />
+        <Suspense>
+          <Introduction />
+          <Services />
+          <Values />
+          <Ocupamos />
+          <Admision />
+          <FaqSection />
+          <Form />
+          <Footer />
+        </Suspense>
       </main>
-      <Footer />
     </div>
   );
 }
