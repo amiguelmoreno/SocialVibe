@@ -28,8 +28,9 @@
       />
     </noscript>
 
-    <!-- Preload LCP image (mobile nav home icon) para descubrimiento inmediato -->
-    <link rel="preload" as="image" href="/sv.webp" fetchpriority="high" type="image/webp" />
+    <!-- Preload intro logo (shown during overlay) and mobile nav LCP image -->
+    <link rel="preload" as="image" href="/sv-logo1.webp" fetchpriority="high" type="image/webp" />
+    <link rel="preload" as="image" href="/sv.webp" type="image/webp" />
 
     <!-- Critical CSS: intro overlay + CSS vars (evita FOUC mientras carga el CSS async) -->
     <style>
@@ -51,7 +52,7 @@
         align-items: center;
         justify-content: center;
         will-change: transform;
-        transition: transform 0.4s ease;
+        transition: transform 0.3s ease;
       }
       .intro img {
         width: 50rem;

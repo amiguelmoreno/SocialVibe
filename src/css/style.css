@@ -140,14 +140,14 @@ p {
   align-items: center;
   justify-content: center;
   will-change: transform;
-  transition: transform 0.4s ease;
+  transition: transform 0.3s ease;
 }
 .intro img {
   opacity: 0;
   width: 50rem;
   border-radius: 10px;
-  animation: animacion 0.3s forwards;
-  animation-delay: 0.2s;
+  animation: animacion 0.2s forwards;
+  animation-delay: 0.1s;
 }
 @media only screen and (max-width: 800px) {
   .intro img {
