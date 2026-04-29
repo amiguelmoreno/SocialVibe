@@ -490,6 +490,7 @@ header .menu-mobile .icons ul a .not-filter {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10rem;
 }
 .ocupamos h2 {
   font-size: 2.22rem;
@@ -598,8 +599,8 @@ header .menu-mobile .icons ul a .not-filter {
 
 .values-section {
   max-width: 90vw;
-  margin-bottom: 7rem;
-  margin-top: 3rem;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
 }
 .values-section h2 {
   margin-bottom: 5rem;
