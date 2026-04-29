@@ -68,9 +68,11 @@ function App() {
           <Admision />
           <FaqSection />
           <Form />
-          <Footer />
         </Suspense>
       </main>
+      <Suspense>
+        <Footer />
+      </Suspense>
     </div>
   );
 }
