@@ -12,7 +12,7 @@ function Header() {
     <header>
       <div className="menu-desktop">
         <div className="logo">
-          <img src={logo} alt="logo Social Vibe" />
+          <img src={logo} alt="logo Social Vibe" width={445} height={137} />
         </div>
         <div className="index">
           <ul>

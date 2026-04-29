@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
@@ -16,7 +15,7 @@ import "./css/style.css";
 
 function App() {
   useEffect(() => {
-    AOS.init({});
+    import("aos").then(({ default: AOS }) => AOS.init({}));
   }, []);
 
   return (
