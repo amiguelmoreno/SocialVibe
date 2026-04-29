@@ -1,16 +1,13 @@
 .introduction {
     position: relative;
     margin-top: 10rem;
-    margin-bottom: 10rem;
 
     @media only screen and (max-width: 800px) {
         margin-top: 0rem;
-        margin-bottom: 6rem;
     }
 
     @media only screen and (max-width: 600px) {
         margin-top: -10rem;
-        margin-bottom: 4rem;
     }
 
     p {

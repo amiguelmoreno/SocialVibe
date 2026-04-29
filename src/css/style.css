@@ -436,18 +436,15 @@ header .menu-mobile .icons ul a .not-filter {
 .introduction {
   position: relative;
   margin-top: 10rem;
-  margin-bottom: 10rem;
 }
 @media only screen and (max-width: 800px) {
   .introduction {
     margin-top: 0rem;
-    margin-bottom: 6rem;
   }
 }
 @media only screen and (max-width: 600px) {
   .introduction {
     margin-top: -10rem;
-    margin-bottom: 4rem;
   }
 }
 .introduction p {
